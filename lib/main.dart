@@ -1,4 +1,5 @@
 
+import 'package:bosquejosestructuras/reto1.dart';
 import 'package:bosquejosestructuras/reto3.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Reto3();
+    return Reto1();
     /*  Scaffold(
       body: SafeArea(
         child: Column(

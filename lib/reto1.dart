@@ -12,7 +12,7 @@ class Reto1 extends StatelessWidget {
 
             Image.network(
               "https://cdn.pixabay.com/photo/2014/10/13/09/03/rocks-486591_960_720.jpg",
-              height: 400,
+              height: 300,
               width: double.infinity,
               fit: BoxFit.cover,
             ),
@@ -142,12 +142,12 @@ class Reto1 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 50.0,
+                    height: 25.0,
                   ),
                   Text(
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                     style: TextStyle(
-                      height: 1.3,
+                      height: 1.1,
                       fontWeight: FontWeight.w400,
                     ),
                   ),
