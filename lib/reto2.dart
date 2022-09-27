@@ -34,12 +34,12 @@ class Reto2 extends StatelessWidget {
             ),
             const Divider(
               color: Colors.grey,
-              height: 20,
+              height: 14,
             ),
 
             Padding(
               padding:
-              const EdgeInsets.symmetric(horizontal: 5.0, vertical: 5.0),
+              const EdgeInsets.symmetric(horizontal: 5.0, vertical: 2.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children:[
@@ -47,7 +47,7 @@ class Reto2 extends StatelessWidget {
               Text(
                 "Updated: ",
                 style: TextStyle(
-                  fontSize: 13.0,
+                  fontSize: 10.0,
                   fontWeight: FontWeight.w300,
                   color: Colors.grey,
                 ),
@@ -69,13 +69,13 @@ class Reto2 extends StatelessWidget {
 
             Image.network(
               "https://ojo-publico.com/sites/default/files/inline-images/Congreso%20cierre.jpg",
-              height: 300,
+              height: 250,
               width: double.infinity,
               fit: BoxFit.cover,
             ),
             Padding(
               padding:
-              const EdgeInsets.symmetric(horizontal: 14.0, vertical: 20.0),
+              const EdgeInsets.symmetric(horizontal: 14.0, vertical: 14.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -85,7 +85,7 @@ class Reto2 extends StatelessWidget {
                     "Democrats?"
                         ,
                     style: TextStyle(
-                      fontSize: 28.0,
+                      fontSize: 15.0,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -103,7 +103,7 @@ class Reto2 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 16.0,
+                    height: 12.0,
                   ),
                   Text(
                     "° How she bridge Democrats' factions on                   "
@@ -111,7 +111,7 @@ class Reto2 extends StatelessWidget {
                         "can lead her party to a majority"
                     ,
                     style: TextStyle(
-                      fontSize: 17.0,
+                      fontSize: 15.0,
                       color: Colors.black54,
                     ),
                   ),
@@ -139,7 +139,7 @@ class Reto2 extends StatelessWidget {
                           ),
 
                           SizedBox(
-                            width: 20.0,
+                            width: 13.0,
                           ),
                           Icon(
                             Icons.file_upload_outlined,
@@ -156,10 +156,10 @@ class Reto2 extends StatelessWidget {
 
                   const Divider(
                     color: Colors.black,
-                    height: 20,
+                    height: 10,
                   ),
                   SizedBox(
-                    height: 5.0,
+                    height: 2.0,
                   ),
                   Text(
                     "Analysis: G.O.P. Squirms as Tarump Veers Off Script With Abuse          Remarks",
